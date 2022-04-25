@@ -35,7 +35,6 @@ export function createInitialState(): Domain.State {
       armor: [],
       weapons: [],
       tools: [],
-      skills: [],
     },
     savingThrowProficiencies: {
       strength: false,

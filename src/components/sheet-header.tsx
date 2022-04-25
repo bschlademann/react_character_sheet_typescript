@@ -55,8 +55,6 @@ export const AbilityList: FC<AbilityListProps> = (props) => {
 
 export const SkillList: React.FC<SkillListProps> = (props) => {
   const { toggleSkill } = props;
-  // equivalent zu:
-  // const createToggleSkill = props.createToggleSkill;
   return (
     <ul>
       {Data.allSkills.map((skill) => {
@@ -67,10 +65,6 @@ export const SkillList: React.FC<SkillListProps> = (props) => {
         const associatedAbility = skillsByAbility[skill];
         return (
           <li key={skill}>
-            {/* TODO: if(checkbox.checked){
-                        add skill to proficiencies in state
-                        rerender skill mod value
-                        } */}
             <input
               type="checkbox"
               checked={state.skillProficiencies[skill]}

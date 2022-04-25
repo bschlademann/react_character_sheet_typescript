@@ -1,18 +1,16 @@
 ## validation ##
 - sheet-header:
     - name: {validation rules?}
-
-/**
- * TODO:
- * typescript ausprobieren
- * checkbox-> isChecked in state
- */
-
-
 ## sheet-header
+- add eventlistener to {level} element: onChange={Domain.setProficiencyBonus}
 - selection of subclass
-- fetch from dnd5api (classes, etc)
     - save in localStorage / sessionStorage (https://javascript.info/localstorage)
+
+- fetch list of characterClassNames    
+    - https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/blob/master/data/class/index.json
+- fetch jsons of those classNames from:
+    - https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/tree/master/data/class
+- get subclass names from characterJSONs 
 
 # Abilites:
 - clamp ability score entry (3-18)

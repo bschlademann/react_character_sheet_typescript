@@ -29,7 +29,6 @@ export type State = {
     armor: string[];
     weapons: string[];
     tools: string[];
-    skills: Skill[];
   };
   savingThrowProficiencies: {
     strength: boolean;
